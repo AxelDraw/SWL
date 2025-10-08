@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart World Logistic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Roboto+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'deep-navy': '#1B2B4D',
+              'electric-blue': '#0066FF',
+              'warm-gold': '#FFB800',
+              'swl-green': '#00B050',
+              'swl-orange': '#FF6B35',
+              'swl-red': '#E63946',
+              'light-gray': '#F8F9FA',
+              'medium-gray': '#6C757D',
+              'dark-gray': '#343A40',
+            },
+            fontFamily: {
+              'montserrat': ['Montserrat', 'sans-serif'],
+              'sourcesans': ['Source Sans 3', 'sans-serif'],
+              'robotomono': ['Roboto Mono', 'monospace'],
+            },
+            boxShadow: {
+              'card': '0 10px 30px -15px rgba(0, 0, 0, 0.1)',
+              'card-hover': '0 20px 40px -15px rgba(0, 0, 0, 0.2)'
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
